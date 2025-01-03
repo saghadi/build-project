@@ -1,0 +1,103 @@
+.banner-wrapper {
+    background: url(../imgaes/banner-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.banner-content-main {
+    padding: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-main-img {
+    margin-bottom: -70px;
+    margin-right: -12px;
+}
+
+.banner-main-img img {
+    width: 100%;
+}
+
+.banner-title span {
+    margin-bottom: 20px;
+    display: block;
+}
+
+.banner-title h1 {
+    margin-bottom: 30px;
+}
+
+.banner-title p {
+    margin-bottom: 30px;
+   max-width: 70%;
+}
+.bannet-input-box{
+    position: relative;
+    max-width: 70%;
+}
+
+.bannet-input-box input{
+    background: #fff;
+    border-radius: 40px;
+    width: 100%;
+    padding: 18px 24px;
+    border: 0;
+}
+
+.bannet-input-box input::placeholder{
+    font-size: 16px;
+}
+
+.bannet-input-box button{
+    padding: 20px 30px;
+    background: var(--text-color);
+    border: 1px solid #BEBEBE;
+    color: #fff;
+    border-radius: 40px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    line-height: 0;
+    transition: 0.6s ease;
+}
+
+.bannet-input-box button:hover{
+    background: #fff;
+    color: var(--text-color);
+}
+
+.our-gaping{
+    margin-top: 100px;
+}
+
+
+@media (max-width: 991px) {
+    .bannet-input-box {
+        max-width: 100%;
+    }
+    .our-gaping{
+        margin-top: 60px;
+    }
+}
+
+@media (max-width: 767px) {
+    .banner-content-main {
+        padding: 30px;
+    }
+
+    .banner-title p {
+        max-width: 100%;
+    }
+
+    .banner-title h1 {
+        margin-bottom: 20px;
+    }
+    .our-gaping{
+        margin-top: 40px;
+    }
+}

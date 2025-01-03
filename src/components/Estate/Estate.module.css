@@ -1,0 +1,148 @@
+.title-box h2 {
+    font-size: 50px;
+    color: var(--text-color);
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+}
+
+.our-gaping {
+    margin-top: 100px;
+}
+
+.estate-main-box {
+    padding: 0 40px;
+    margin-top: 50px;
+}
+
+.estet-img-box img {
+    width: 100%;
+}
+
+
+.common-btn a {
+    padding: 20px 30px;
+    background: #fff;
+    border: 1px solid #BEBEBE;
+    color: var(--text-color);
+    border-radius: 40px;
+    display: inline-block;
+    transition: 0.6s ease;
+}
+
+.common-btn a:hover {
+    background: var(--text-color);
+    color: #fff !important;
+}
+
+.book-btn a {
+    background: var(--text-color);
+    color: #fff;
+}
+
+.book-btn a:hover {
+    background: #fff;
+    color: #000 !important;
+}
+
+.estate-btn-box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.estate-title-content h3 {
+    margin-bottom: 30px;
+    font-size: 38px;
+    color: var(--text-color);
+}
+
+.estate-left-box {
+    max-width: 700px;
+}
+
+.estate-content-main {
+    display: flex;
+    align-items: center;
+}
+
+.number div {
+    font-size: 72px;
+    line-height: 82px;
+    font-weight: 600;
+}
+
+.number div::after {
+    content: "+";
+    font-size: 70px;
+    font-weight: 600;
+    color: #000;
+}
+
+.number-counter span {
+    display: block;
+}
+
+.numbers-box {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+@media (max-width: 991px) {
+    .title-box h2 {
+        font-size: 40px;
+    }
+
+    .estate-main-box {
+        padding: 0;
+    }
+
+    .estate-title-content h3 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .number div {
+        font-size: 62px;
+    }
+
+    .number div::after {
+        font-size: 62px;
+
+    }
+
+    .numbers-box{
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+
+    .our-gaping {
+        margin-top: 60px;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .title-box h2 {
+        font-size: 30px;
+    }
+
+    .estate-btn-box {
+        margin-top: 30px;
+    }
+
+    .number div {
+        font-size: 42px;
+    }
+
+    .number div::after {
+        font-size: 42px;
+
+    }
+    .our-gaping {
+        margin-top: 40px;
+    }
+}
